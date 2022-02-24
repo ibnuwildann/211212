@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background"
+    android:layout_centerHorizontal="true"
+    tools:context=".laporan">
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jember 1 TV"
+        android:textSize="15dp"
+        android:paddingTop="180dp"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:id="@+id/txt1"
+        android:paddingTop="180dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Form Laporan Progress Kerja Harian"
+        android:textSize="20dp"/>
+
+        <EditText
+            android:layout_centerHorizontal="true"
+            android:id="@+id/formnama"
+            android:layout_width="350dp"
+            android:layout_marginTop="420dp"
+            android:hint="isi nama kamu disini"
+            android:textColor="@color/black"
+            android:layout_height="40dp"
+            android:textColorHint="@color/black"
+            android:textAlignment="center"
+            android:background="@drawable/style"/>
+        <EditText
+            android:layout_centerHorizontal="true"
+            android:id="@+id/forkerja"
+            android:layout_marginTop="490dp"
+            android:layout_width="350dp"
+            android:textColor="@color/black"
+            android:hint="isi progress kamu hari ini"
+            android:layout_height="40dp"
+            android:textColorHint="@color/black"
+            android:textAlignment="center"
+            android:background="@drawable/style"/>
+
+        <EditText
+            android:layout_centerHorizontal="true"
+            android:id="@+id/forstatus"
+            android:layout_marginTop="560dp"
+            android:layout_width="350dp"
+            android:hint="status"
+            android:layout_height="40dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textAlignment="center"
+            android:background="@drawable/style"/>
+
+        <Button
+            android:id="@+id/simpan"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginRight="5dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/forstatus"
+            android:layout_marginTop="29dp"
+            android:text="simpan"
+            android:backgroundTint="@color/oke"
+
+            android:textColor="@color/white"/>
+        <Button
+            android:id="@+id/esxit"
+            android:layout_below="@id/simpan"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/exit"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:text="keluar">
+
+        </Button>
+
+
+</RelativeLayout>
