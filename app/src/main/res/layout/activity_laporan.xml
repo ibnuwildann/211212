@@ -54,7 +54,7 @@
             android:id="@+id/forstatus"
             android:layout_marginTop="560dp"
             android:layout_width="350dp"
-            android:hint="status"
+            android:hint="udah selesai apa belum?"
             android:layout_height="40dp"
             android:textColor="@color/black"
             android:textColorHint="@color/black"
@@ -63,12 +63,12 @@
 
         <Button
             android:id="@+id/simpan"
-            android:layout_width="wrap_content"
+            android:layout_width="290dp"
             android:layout_height="50dp"
             android:layout_marginRight="5dp"
             android:layout_centerHorizontal="true"
             android:layout_below="@id/forstatus"
-            android:layout_marginTop="29dp"
+            android:layout_marginTop="39dp"
             android:text="simpan"
             android:backgroundTint="@color/oke"
 
@@ -76,7 +76,7 @@
         <Button
             android:id="@+id/esxit"
             android:layout_below="@id/simpan"
-            android:layout_width="wrap_content"
+            android:layout_width="290dp"
             android:layout_height="50dp"
             android:backgroundTint="@color/exit"
             android:layout_centerHorizontal="true"

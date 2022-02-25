@@ -50,7 +50,7 @@
                 android:layout_column="1"
                 android:layout_columnWeight="1"
                 android:layout_gravity="fill"
-                android:layout_margin="20dp"
+                android:layout_margin="25dp"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="8dp">
 
@@ -85,7 +85,7 @@
                 app:cardBackgroundColor="@color/white"
                 android:layout_columnWeight="1"
                 android:layout_gravity="fill"
-                android:layout_margin="20dp"
+                android:layout_margin="25dp"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="8dp">
 
